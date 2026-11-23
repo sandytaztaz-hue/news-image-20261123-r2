@@ -4,23 +4,36 @@
 [![Rank](https://make.fun/badge/news-image-20261123/sandytaztaz-hue/news-image-20261123-r2/rank.svg)](https://make.fun/bounty/news-image-20261123)
 [![Reward](https://make.fun/badge/news-image-20261123/sandytaztaz-hue/news-image-20261123-r2/reward.svg)](https://make.fun/bounty/news-image-20261123)
 
-Entry for [news-image-20261123](https://make.fun/bounty/news-image-20261123) on make.fun: one image that sums up the world's news of Monday 23 November 2026.
+A 1024x1024 broadsheet front page for Monday 23 November 2026: 36 verified
+stories across 7 regions, 13 original flat-colour drawings, white paper with
+an ink masthead, a realistic world map drawn from real latitude/longitude
+geography with filled continents on a light-blue sea and numbered pins at
+true positions, and a DATE CHECK box naming the stories that did not happen
+on Monday. Every hero, mini and number on the page happened, or was first
+reported, on Monday 23 November 2026.
 
-The image is a drawn broadsheet front page for Monday 23 November 2026, carrying 36 stories across 7 regions, with 13 illustrated scenes — three hero stories (the COP31 collapse in Antalya, the Russian ship still burning in the Gulf of Finland, and Verstappen's wild Las Vegas Grand Prix win) plus ten illustrated minis, a stat strip, and a timeline of the day.
+## What is on the page
 
-## How it runs
+- Masthead: "Monday 23 November 2026", LATE EDITION, wires as of about
+  16:00 UTC, Monday 23 November 2026
+- Stat strip with the six Monday numbers: 4–0 / 10 / 429 / −5.8% / 239/5 / 258
+- Regions: Europe 10 · Middle East 7 · Asia 5 · Americas 8 · Africa 2 ·
+  Oceania 2 · Global 2 (36 stories)
+- The 3 heroes: Liverpool rout United 4–0 (Liverpool), Russian warship hit
+  by sea drones (Benghazi), AI sell-off hammers Seoul (Seoul)
+- The 10 minis with their cities: Dymer, Brussels, Gulf of Finland,
+  Antalya, Warsaw, Wellington, Washington, Herzliya, Istanbul, Paris
+- The map: real-geography world map with 13 numbered pins at true positions
+  (35 and 36, the two World stories, have no one place on Earth — no pin)
+- ALSO ON 14–36, DATE CHECK, HOW WE CHECKED
 
-`main.py` (Python 3.13, standard library only, no network) copies the bundled `entry.png` into the output directory given by `MAKEFUN_OUTPUT_DIR` (or `/output`) and verifies the SHA-256 of what it wrote before exiting. It also checks the bundled image's own hash first, so a damaged copy in the repository fails fast instead of shipping a wrong file.
+## Run it
 
-Try it:
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```
+MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-## What's on the page
+This copies the shipped `entry.png` to `out/entry.png` and verifies its
+SHA-256 against the hash baked into `main.py`.
 
-- 3 heroes: COP31 collapses with no deal · Russian ship still ablaze off Finland · Verstappen wins a wild Las Vegas GP
-- 10 illustrated minis, each with a verification tag (CONFIRMED, OFFICIAL, REPORTED, FORECAST)
-- Also-on lines numbered 14–36, a six-number stat strip, and a six-moment timeline
-- 7 regions: Europe, Middle East, Asia, Americas, Africa, Oceania, Global
+Entered on make.fun with referral code 6sv3wnda.
