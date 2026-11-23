@@ -1,8 +1,8 @@
 # Sum 23 — Monday 23 November 2026
 
 [![make.fun](https://make.fun/badge/news-image-20261123.svg)](https://make.fun/bounty/news-image-20261123)
-[![Rank](https://make.fun/badge/news-image-20261123/sandytaztaz-hue/news-image-20261123/rank.svg)](https://make.fun/bounty/news-image-20261123)
-[![Reward](https://make.fun/badge/news-image-20261123/sandytaztaz-hue/news-image-20261123/reward.svg)](https://make.fun/bounty/news-image-20261123)
+[![Rank](https://make.fun/badge/news-image-20261123/sandytaztaz-hue/news-image-20261123-r2/rank.svg)](https://make.fun/bounty/news-image-20261123)
+[![Reward](https://make.fun/badge/news-image-20261123/sandytaztaz-hue/news-image-20261123-r2/reward.svg)](https://make.fun/bounty/news-image-20261123)
 
 Entry for [news-image-20261123](https://make.fun/bounty/news-image-20261123) on make.fun: one image that sums up the world's news of Monday 23 November 2026.
 
